@@ -31,5 +31,8 @@
     "@skpm/fs": "^0.2.5",
     "svgo": "github:chenxsan/svgo#use-default-config-object"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/chenxsan/copy-optimized-svg-code"
+  }
 }
