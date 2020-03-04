@@ -1,4 +1,4 @@
-# copy-svg-code
+# Copy Optimized SVG Code
 
 ## Installation
 
