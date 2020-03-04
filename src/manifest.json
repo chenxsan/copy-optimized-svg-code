@@ -1,17 +1,20 @@
 {
   "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
   "icon": "icon.png",
+  "name": "Copy Optimized SVG Code",
+  "version": "1.0.0",
+  "author": "Sam Chen",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "copy-svg-code.my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Copy Optimized SVG Code",
+      "identifier": "copy-svg-code.copy-identifier",
+      "script": "./copy.js",
+      "shortcut": "cmd shift c"
     }
   ],
   "menu": {
-    "title": "copy-svg-code",
-    "items": [
-      "copy-svg-code.my-command-identifier"
-    ]
+    "isRoot": true,
+    "title": "Copy Optimized SVG Code",
+    "items": ["copy-svg-code.copy-identifier"]
   }
 }
