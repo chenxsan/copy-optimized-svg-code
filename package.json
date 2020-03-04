@@ -30,5 +30,6 @@
   "dependencies": {
     "@skpm/fs": "^0.2.5",
     "svgo": "github:chenxsan/svgo#use-default-config-object"
-  }
+  },
+  "license": "MIT"
 }
