@@ -6,6 +6,8 @@
 - Un-zip
 - Double-click on copy-svg-code.sketchplugin
 
+Now you should see `Copy Optimized SVG Code` command under `Plugins` menu. Select any layer or group and run the command, you'll get the optimized svg code in your pasteboard.
+
 ## Development Guide
 
 _This plugin was created using `skpm`. For a detailed explanation on how things work, checkout the [skpm Readme](https://github.com/skpm/skpm/blob/master/README.md)._
