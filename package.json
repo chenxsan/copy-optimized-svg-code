@@ -1,7 +1,7 @@
 {
   "name": "copy-svg-code",
   "description": "Sketch plugin to copy optimized svg code",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "engines": {
     "sketch": ">=49.0"
   },
@@ -15,21 +15,18 @@
     "sketch-assets-file": "sketch-assets/icons.sketch"
   },
   "scripts": {
-    "build": "webpack && skpm-build",
-    "watch": "webpack && skpm-build --watch",
-    "start": "webpack && skpm-build --watch --run",
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
     "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
-    "@skpm/builder": "^0.7.0",
-    "eslint": "^6.8.0",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11"
+    "@skpm/builder": "^0.7.11",
+    "eslint": "^7.30.0"
   },
   "author": "chenxsan <chenxsan@gmail.com>",
   "dependencies": {
-    "@skpm/fs": "^0.2.5",
-    "svgo": "github:chenxsan/svgo#use-default-config-object"
+    "svgo": "^2.3.1"
   },
   "license": "MIT",
   "repository": {
