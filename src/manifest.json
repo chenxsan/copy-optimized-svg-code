@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
   "icon": "icon.png",
   "name": "Copy Optimized SVG Code",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "author": "Sam Chen",
   "commands": [
     {
